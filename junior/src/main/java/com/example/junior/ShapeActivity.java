@@ -1,7 +1,7 @@
 package com.example.junior;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 
 /**
@@ -16,6 +16,9 @@ public class ShapeActivity extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.activity_shape);
         // 从布局文件中获取名叫v_content的视图
         v_content = findViewById(R.id.v_content);
+        // 默认显示 黑色描边 的圆角矩形
+        v_content.setBackgroundResource(R.drawable.shape_white_with_stroke);
+
         // 给btn_rect设置点击监听器
         findViewById(R.id.btn_rect).setOnClickListener(this);
         // 给btn_oval设置点击监听器

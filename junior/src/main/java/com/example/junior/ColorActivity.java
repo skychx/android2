@@ -1,7 +1,7 @@
 package com.example.junior;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.TextView;
 
 /**
@@ -15,6 +15,9 @@ public class ColorActivity extends AppCompatActivity {
         setContentView(R.layout.activity_color);
         // 从布局文件中获取名叫tv_code_six的文本视图
         TextView tv_code_six = findViewById(R.id.tv_code_six);
+
+        // XML 中的颜色默认不透明，代码中的颜色默认为透明
+
         // 给文本视图tv_code_six设置背景为透明的绿色，透明就是看不到
         tv_code_six.setBackgroundColor(0x00ff00);
         // 从布局文件中获取名叫tv_code_eight的文本视图

@@ -4,6 +4,22 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3619791666666667" />
+        <entry key="junior/src/main/res/drawable/btn_nine_selector.xml" value="0.3921875" />
+        <entry key="junior/src/main/res/drawable/btn_orig_selector.xml" value="0.3921875" />
+        <entry key="junior/src/main/res/drawable/shape_oval_rose.xml" value="0.25" />
+        <entry key="junior/src/main/res/drawable/shape_rect_gold.xml" value="0.3921875" />
+        <entry key="junior/src/main/res/drawable/shape_white_with_stroke.xml" value="0.3921875" />
+        <entry key="junior/src/main/res/layout/activity_bbs.xml" value="0.37604166666666666" />
+        <entry key="junior/src/main/res/layout/activity_calculator.xml" value="0.37604166666666666" />
+        <entry key="junior/src/main/res/layout/activity_capture.xml" value="0.2103825136612022" />
+        <entry key="junior/src/main/res/layout/activity_click.xml" value="0.2103825136612022" />
+        <entry key="junior/src/main/res/layout/activity_color.xml" value="0.37604166666666666" />
+        <entry key="junior/src/main/res/layout/activity_gravity.xml" value="0.37604166666666666" />
+        <entry key="junior/src/main/res/layout/activity_icon.xml" value="0.2103825136612022" />
+        <entry key="junior/src/main/res/layout/activity_margin.xml" value="0.37604166666666666" />
+        <entry key="junior/src/main/res/layout/activity_px.xml" value="0.37604166666666666" />
+        <entry key="junior/src/main/res/layout/activity_scroll.xml" value="0.165" />
+        <entry key="junior/src/main/res/layout/activity_state.xml" value="0.2103825136612022" />
       </map>
     </option>
   </component>

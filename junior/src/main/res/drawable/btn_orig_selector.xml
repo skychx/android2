@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    state_pressed="true"，也就是按下时显示 button_pressed_orig，不按显示 button_normal_orig-->
     <item android:state_pressed="true" android:drawable="@drawable/button_pressed_orig" />
     <item android:drawable="@drawable/button_normal_orig" />
 </selector>

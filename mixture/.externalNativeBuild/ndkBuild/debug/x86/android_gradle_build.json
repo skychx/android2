@@ -1,0 +1,48 @@
+{
+  "buildFiles": [
+    "/Users/skychx/Documents/my_github/android2/mixture/src/main/jni/Android.mk"
+  ],
+  "cleanCommands": [
+    "/Users/skychx/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/skychx/Documents/my_github/android2/mixture/src/main/jni/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/skychx/Documents/my_github/android2/mixture/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/skychx/Documents/my_github/android2/mixture/build/intermediates/ndkBuild/debug/lib clean"
+  ],
+  "libraries": {
+    "jni_mix-debug-x86": {
+      "buildCommand": "/Users/skychx/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/skychx/Documents/my_github/android2/mixture/src/main/jni/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/skychx/Documents/my_github/android2/mixture/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/skychx/Documents/my_github/android2/mixture/build/intermediates/ndkBuild/debug/lib /Users/skychx/Documents/my_github/android2/mixture/build/intermediates/ndkBuild/debug/obj/local/x86/libjni_mix.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "jni_mix",
+      "files": [
+        {
+          "src": "/Users/skychx/Documents/my_github/android2/mixture/src/main/jni/aes.cpp",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/skychx/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/skychx/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -I/Users/skychx/Documents/my_github/android2/mixture/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security -mstackrealign -fexceptions -fexceptions"
+        },
+        {
+          "src": "/Users/skychx/Documents/my_github/android2/mixture/src/main/jni/find_name.cpp",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/skychx/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/skychx/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -I/Users/skychx/Documents/my_github/android2/mixture/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security -mstackrealign -fexceptions -fexceptions"
+        },
+        {
+          "src": "/Users/skychx/Documents/my_github/android2/mixture/src/main/jni/get_cpu.cpp",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/skychx/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/skychx/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -I/Users/skychx/Documents/my_github/android2/mixture/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security -mstackrealign -fexceptions -fexceptions"
+        },
+        {
+          "src": "/Users/skychx/Documents/my_github/android2/mixture/src/main/jni/get_decrypt.cpp",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/skychx/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/skychx/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -I/Users/skychx/Documents/my_github/android2/mixture/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security -mstackrealign -fexceptions -fexceptions"
+        },
+        {
+          "src": "/Users/skychx/Documents/my_github/android2/mixture/src/main/jni/get_encrypt.cpp",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/skychx/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/skychx/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -I/Users/skychx/Documents/my_github/android2/mixture/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security -mstackrealign -fexceptions -fexceptions"
+        }
+      ],
+      "output": "/Users/skychx/Documents/my_github/android2/mixture/build/intermediates/ndkBuild/debug/obj/local/x86/libjni_mix.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cppCompilerExecutable": "/Users/skychx/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,7 +1,7 @@
 package com.example.junior;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.example.junior.util.Utils;
@@ -20,6 +20,7 @@ public class PxActivity extends AppCompatActivity {
         // 从布局文件中获取名叫tv_padding的文本视图
         TextView tv_padding = findViewById(R.id.tv_padding);
         // 设置该文本视图的内部文字与控件四周的间隔大小
+        // 之所以做转换，是因为 setPadding 的参数单位均为 px
         tv_padding.setPadding(dip_10, dip_10, dip_10, dip_10);
     }
 }

@@ -3,7 +3,7 @@ package com.example.junior;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -18,6 +18,11 @@ public class CaptureActivity extends AppCompatActivity implements View.OnClickLi
     private TextView tv_capture; // 声明一个文本视图对象
     private ImageView iv_capture; // 声明一个图像视图对象
 
+    // 截图步骤
+    // 1.调用 setDrawingCacheEnabled(true) 开启要截图的 View 的绘图缓存
+    // 2.调用上一个 View 的 getDrawingCache 方法获取缓存中的 bitmap 图像数据
+    // 3.等待若干时间（因为从 bitmap 到渲染出真正图像有个时间差）后调用 setDrawingCacheEnabled(false) 关闭绘图缓存
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,8 +31,10 @@ public class CaptureActivity extends AppCompatActivity implements View.OnClickLi
         tv_capture = findViewById(R.id.tv_capture);
         // 从布局文件中获取名叫iv_capture的图像视图
         iv_capture = findViewById(R.id.iv_capture);
+
         // 开启文本视图tv_capture的绘图缓存
         tv_capture.setDrawingCacheEnabled(true);
+
         // 从布局文件中获取名叫btn_chat的按钮
         Button btn_chat = findViewById(R.id.btn_chat);
         // 从布局文件中获取名叫btn_capture的按钮

@@ -2,7 +2,7 @@ package com.example.junior;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
@@ -45,5 +45,8 @@ public class IconActivity extends AppCompatActivity implements View.OnClickListe
             // 设置按钮控件btn_icon内部文字下方的图标
             btn_icon.setCompoundDrawables(null, null, null, drawable);
         }
+
+        // 如果设置为 btn_icon.setCompoundDrawables(drawable, drawable, drawable, drawable);
+        // 则上下左右都会显示 icon
     }
 }

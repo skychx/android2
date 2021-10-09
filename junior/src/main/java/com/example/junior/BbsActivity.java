@@ -1,11 +1,12 @@
 package com.example.junior;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.junior.util.DateUtil;
 
@@ -21,12 +22,14 @@ public class BbsActivity extends AppCompatActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bbs);
+
         // 从布局文件中获取名叫tv_control的文本视图
         tv_control = findViewById(R.id.tv_control);
         // 给tv_control设置点击监听器
         tv_control.setOnClickListener(this);
         // 给tv_control设置长按监听器
         tv_control.setOnLongClickListener(this);
+
         // 从布局文件中获取名叫tv_bbs的文本视图
         tv_bbs = findViewById(R.id.tv_bbs);
         // 给tv_bbs设置点击监听器
@@ -52,6 +55,7 @@ public class BbsActivity extends AppCompatActivity implements
             // 生成一个0到4之间的随机数
             int random = (int) (Math.random() * 10) % 5;
             // 拼接聊天的文本内容
+            // 旧文本 + 换行 +「时间 随机文字」
             String newStr = String.format("%s\n%s %s",
                     tv_bbs.getText().toString(), DateUtil.getNowTime(), mChatStr[random]);
             // 设置文本视图tv_bbs的文本内容

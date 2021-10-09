@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/skychx/Documents/my_github/android2/mixture/src/main/jni/Android.mk"
+  ],
+  "cleanCommands": [
+    "/Users/skychx/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/skychx/Documents/my_github/android2/mixture/src/main/jni/Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/skychx/Documents/my_github/android2/mixture/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/skychx/Documents/my_github/android2/mixture/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "libraries": {
+    "jni_mix-release-armeabi-v7a": {
+      "artifactName": "jni_mix",
+      "buildCommand": "/Users/skychx/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/skychx/Documents/my_github/android2/mixture/src/main/jni/Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/skychx/Documents/my_github/android2/mixture/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/skychx/Documents/my_github/android2/mixture/build/intermediates/ndkBuild/release/lib /Users/skychx/Documents/my_github/android2/mixture/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libjni_mix.so",
+      "abi": "armeabi-v7a",
+      "output": "/Users/skychx/Documents/my_github/android2/mixture/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libjni_mix.so"
+    }
+  }
+}

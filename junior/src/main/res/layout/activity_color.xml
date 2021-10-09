@@ -4,6 +4,7 @@
     android:padding="5dp"
     android:orientation="vertical">
 
+    <!--XML 中的颜色默认不透明，代码中的颜色默认为透明-->
     <TextView
         android:id="@+id/tv_xml"
         android:layout_width="wrap_content"

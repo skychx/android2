@@ -1,7 +1,7 @@
 package com.example.junior;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -20,8 +20,16 @@ public class ClickActivity extends AppCompatActivity {
         Button btn_click = findViewById(R.id.btn_click);
         // 给btn_click设置点击监听器，一旦用户点击按钮，就触发监听器的onClick方法
         btn_click.setOnClickListener(new MyOnClickListener());
+
         // 给btn_click设置长按监听器，一旦用户长按按钮，就触发监听器的onLongClick方法
-        btn_click.setOnLongClickListener(new MyOnLongClickListener());
+        // btn_click.setOnLongClickListener(new MyOnLongClickListener());
+        // 这里改用 Lambda Expressions
+        btn_click.setOnLongClickListener(v -> {
+            if (v.getId() == R.id.btn_click) { // 判断是否为btn_click被长按
+                Toast.makeText(ClickActivity.this, "您长按了控件：" + ((TextView) v).getText(), Toast.LENGTH_SHORT).show();
+            }
+            return true;
+        });
     }
 
     // 定义一个点击监听器，它实现了接口View.OnClickListener
@@ -31,17 +39,6 @@ public class ClickActivity extends AppCompatActivity {
             if (v.getId() == R.id.btn_click) { // 判断是否为btn_click被点击
                 Toast.makeText(ClickActivity.this, "您点击了控件：" + ((TextView) v).getText(), Toast.LENGTH_SHORT).show();
             }
-        }
-    }
-
-    // 定义一个长按监听器，它实现了接口View.OnLongClickListener
-    class MyOnLongClickListener implements View.OnLongClickListener {
-        @Override
-        public boolean onLongClick(View v) { // 长按事件的处理方法
-            if (v.getId() == R.id.btn_click) { // 判断是否为btn_click被长按
-                Toast.makeText(ClickActivity.this, "您长按了控件：" + ((TextView) v).getText(), Toast.LENGTH_SHORT).show();
-            }
-            return true;
         }
     }
 }
