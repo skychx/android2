@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./mixture/libs/epublib-core-latest.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mixture/libs/epublib-core-latest.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

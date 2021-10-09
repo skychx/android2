@@ -2,25 +2,25 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/animation/animation.iml" filepath="$PROJECT_DIR$/animation/animation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/custom/custom.iml" filepath="$PROJECT_DIR$/custom/custom.iml" />
-      <module fileurl="file://$PROJECT_DIR$/device/device.iml" filepath="$PROJECT_DIR$/device/device.iml" />
-      <module fileurl="file://$PROJECT_DIR$/event/event.iml" filepath="$PROJECT_DIR$/event/event.iml" />
-      <module fileurl="file://$PROJECT_DIR$/filedialog/filedialog.iml" filepath="$PROJECT_DIR$/filedialog/filedialog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/group/group.iml" filepath="$PROJECT_DIR$/group/group.iml" />
-      <module fileurl="file://$PROJECT_DIR$/junior/junior.iml" filepath="$PROJECT_DIR$/junior/junior.iml" />
-      <module fileurl="file://$PROJECT_DIR$/media/media.iml" filepath="$PROJECT_DIR$/media/media.iml" />
-      <module fileurl="file://$PROJECT_DIR$/middle/middle.iml" filepath="$PROJECT_DIR$/middle/middle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mixture/mixture.iml" filepath="$PROJECT_DIR$/mixture/mixture.iml" />
-      <module fileurl="file://$PROJECT_DIR$/network/network.iml" filepath="$PROJECT_DIR$/network/network.iml" />
-      <module fileurl="file://$PROJECT_DIR$/performance/performance.iml" filepath="$PROJECT_DIR$/performance/performance.iml" />
-      <module fileurl="file://$PROJECT_DIR$/senior/senior.iml" filepath="$PROJECT_DIR$/senior/senior.iml" />
-      <module fileurl="file://$PROJECT_DIR$/storage/storage.iml" filepath="$PROJECT_DIR$/storage/storage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thirdsdk/thirdsdk.iml" filepath="$PROJECT_DIR$/thirdsdk/thirdsdk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/weixin/weixin.iml" filepath="$PROJECT_DIR$/weixin/weixin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android2.iml" filepath="$PROJECT_DIR$/.idea/modules/android2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/animation/android2.animation.iml" filepath="$PROJECT_DIR$/.idea/modules/animation/android2.animation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android2.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android2.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/custom/android2.custom.iml" filepath="$PROJECT_DIR$/.idea/modules/custom/android2.custom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/device/android2.device.iml" filepath="$PROJECT_DIR$/.idea/modules/device/android2.device.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/event/android2.event.iml" filepath="$PROJECT_DIR$/.idea/modules/event/android2.event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/filedialog/android2.filedialog.iml" filepath="$PROJECT_DIR$/.idea/modules/filedialog/android2.filedialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/group/android2.group.iml" filepath="$PROJECT_DIR$/.idea/modules/group/android2.group.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/junior/android2.junior.iml" filepath="$PROJECT_DIR$/.idea/modules/junior/android2.junior.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/media/android2.media.iml" filepath="$PROJECT_DIR$/.idea/modules/media/android2.media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/middle/android2.middle.iml" filepath="$PROJECT_DIR$/.idea/modules/middle/android2.middle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mixture/android2.mixture.iml" filepath="$PROJECT_DIR$/.idea/modules/mixture/android2.mixture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/network/android2.network.iml" filepath="$PROJECT_DIR$/.idea/modules/network/android2.network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/performance/android2.performance.iml" filepath="$PROJECT_DIR$/.idea/modules/performance/android2.performance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/senior/android2.senior.iml" filepath="$PROJECT_DIR$/.idea/modules/senior/android2.senior.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/storage/android2.storage.iml" filepath="$PROJECT_DIR$/.idea/modules/storage/android2.storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/android2.test.iml" filepath="$PROJECT_DIR$/.idea/modules/test/android2.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thirdsdk/android2.thirdsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/thirdsdk/android2.thirdsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weixin/android2.weixin.iml" filepath="$PROJECT_DIR$/.idea/modules/weixin/android2.weixin.iml" />
     </modules>
   </component>
 </project>

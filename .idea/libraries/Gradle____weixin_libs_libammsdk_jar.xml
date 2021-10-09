@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./weixin/libs/libammsdk.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/weixin/libs/libammsdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
