@@ -15,6 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f553391b-5789-45b3-919e-a285d02bb228" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_3_1_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
@@ -26,46 +27,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/middle/android2.middle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/middle/android2.middle.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middle/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/middle/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/ActHomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/ActHomeActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/ActJumpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/ActJumpActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/ActNextActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/ActNextActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/ActRequestActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/ActRequestActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/ActResponseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/ActResponseActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/ActRotateActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/ActRotateActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/ActUriActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/ActUriActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/AlertActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/AlertActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/CheckboxActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/CheckboxActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/EditAutoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/EditAutoActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/EditBorderActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/EditBorderActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/EditCursorActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/EditCursorActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/EditHideActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/EditHideActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/EditJumpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/EditJumpActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/EditSimpleActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/EditSimpleActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/FrameActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/FrameActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/LoginForgetActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/LoginForgetActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/LoginMainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/LoginMainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/MortgageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/MortgageActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/RadioHorizontalActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/RadioHorizontalActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/RadioVerticalActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/RadioVerticalActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/RelativeCodeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/RelativeCodeActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/RelativeXmlActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/RelativeXmlActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/SpinnerDialogActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/SpinnerDialogActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/SpinnerDropdownActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/SpinnerDropdownActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/SpinnerIconActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/SpinnerIconActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/SwitchDefaultActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/SwitchDefaultActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/SwitchIOSActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/SwitchIOSActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/TextCheckActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/java/com/example/middle/TextCheckActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/res/layout/activity_frame.xml" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/res/layout/activity_frame.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/res/layout/activity_relative_xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/res/layout/activity_relative_xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/middle/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/senior/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/senior/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -49,6 +49,7 @@ public class ActResponseActivity extends AppCompatActivity implements OnClickLis
             // 往包裹存入名叫response_content的字符串
             bundle.putString("response_content", et_response.getText().toString());
             intent.putExtras(bundle); // 把快递包裹塞给意图
+
             setResult(Activity.RESULT_OK, intent); // 携带意图返回前一个页面
             finish(); // 关闭当前页面
         }
