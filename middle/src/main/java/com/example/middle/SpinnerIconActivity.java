@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -19,6 +19,11 @@ import android.widget.Toast;
  * Created by ouyangshen on 2017/9/24.
  */
 public class SpinnerIconActivity extends AppCompatActivity {
+    // 定义下拉列表需要显示的行星图标数组
+    private int[] iconArray = {R.drawable.shuixing, R.drawable.jinxing, R.drawable.diqiu,
+            R.drawable.huoxing, R.drawable.muxing, R.drawable.tuxing};
+    // 定义下拉列表需要显示的行星名称数组
+    private String[] starArray = {"水星", "金星", "地球", "火星", "木星", "土星"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,9 +45,13 @@ public class SpinnerIconActivity extends AppCompatActivity {
             list.add(item);
         }
         // 声明一个下拉列表的简单适配器，其中指定了图标与文本两组数据
-        SimpleAdapter starAdapter = new SimpleAdapter(this, list,
-                R.layout.item_simple, new String[]{"icon", "name"},
-                new int[]{R.id.iv_icon, R.id.tv_name});
+        SimpleAdapter starAdapter = new SimpleAdapter(
+                this,
+                list, // 原始数据
+                R.layout.item_simple, // 包装盒
+                new String[]{"icon", "name"}, // map key
+                new int[]{R.id.iv_icon, R.id.tv_name} // key 对应的 包装盒 id
+                );
         // 设置简单适配器的布局样式
         starAdapter.setDropDownViewResource(R.layout.item_simple);
         // 从布局文件中获取名叫sp_icon的下拉框
@@ -56,12 +65,6 @@ public class SpinnerIconActivity extends AppCompatActivity {
         // 给下拉框设置选择监听器，一旦用户选中某一项，就触发监听器的onItemSelected方法
         sp.setOnItemSelectedListener(new MySelectedListener());
     }
-
-    // 定义下拉列表需要显示的行星图标数组
-    private int[] iconArray = {R.drawable.shuixing, R.drawable.jinxing, R.drawable.diqiu,
-            R.drawable.huoxing, R.drawable.muxing, R.drawable.tuxing};
-    // 定义下拉列表需要显示的行星名称数组
-    private String[] starArray = {"水星", "金星", "地球", "火星", "木星", "土星"};
 
     // 定义一个选择监听器，它实现了接口OnItemSelectedListener
     class MySelectedListener implements OnItemSelectedListener {

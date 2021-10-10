@@ -40,7 +40,7 @@
         android:layout_marginTop="100dp"
         android:layout_alignParentRight="true"
         android:text="我跟上级右边对齐" />
-    
+
     <Button
         android:id="@+id/btn_parent_bottom"
         style="@style/btn_relative"

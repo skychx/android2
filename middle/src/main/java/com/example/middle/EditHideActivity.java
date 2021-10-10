@@ -2,7 +2,7 @@ package com.example.middle;
 
 import com.example.middle.util.ViewUtil;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -29,6 +29,7 @@ public class EditHideActivity extends AppCompatActivity implements OnClickListen
         EditText et_password = findViewById(R.id.et_password);
         // 从布局文件中获取名叫et_other的其它编辑框
         et_other = findViewById(R.id.et_other);
+
         ll_hide.setOnClickListener(this);
         // 给手机号码编辑框添加文本变化监听器
         et_phone.addTextChangedListener(new HideTextWatcher(et_phone));

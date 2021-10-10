@@ -20,6 +20,29 @@
         <entry key="junior/src/main/res/layout/activity_px.xml" value="0.37604166666666666" />
         <entry key="junior/src/main/res/layout/activity_scroll.xml" value="0.165" />
         <entry key="junior/src/main/res/layout/activity_state.xml" value="0.2103825136612022" />
+        <entry key="middle/src/main/res/drawable/btn_nine_selector.xml" value="0.17467105263157895" />
+        <entry key="middle/src/main/res/drawable/checkbox_selector.xml" value="0.12532894736842104" />
+        <entry key="middle/src/main/res/drawable/editext_selector.xml" value="0.15328947368421053" />
+        <entry key="middle/src/main/res/drawable/shape_edit_normal.xml" value="0.15328947368421053" />
+        <entry key="middle/src/main/res/drawable/switch_selector.xml" value="0.12532894736842104" />
+        <entry key="middle/src/main/res/layout/activity_act_home.xml" value="0.16447368421052633" />
+        <entry key="middle/src/main/res/layout/activity_checkbox.xml" value="0.25" />
+        <entry key="middle/src/main/res/layout/activity_edit_auto.xml" value="0.11372950819672131" />
+        <entry key="middle/src/main/res/layout/activity_edit_border.xml" value="0.14309210526315788" />
+        <entry key="middle/src/main/res/layout/activity_edit_cursor.xml" value="0.14309210526315788" />
+        <entry key="middle/src/main/res/layout/activity_edit_hide.xml" value="0.1" />
+        <entry key="middle/src/main/res/layout/activity_edit_jump.xml" value="0.1" />
+        <entry key="middle/src/main/res/layout/activity_edit_simple.xml" value="0.14309210526315788" />
+        <entry key="middle/src/main/res/layout/activity_frame.xml" value="0.16546052631578947" />
+        <entry key="middle/src/main/res/layout/activity_radio_horizontal.xml" value="0.11513157894736842" />
+        <entry key="middle/src/main/res/layout/activity_relative_code.xml" value="0.15888157894736843" />
+        <entry key="middle/src/main/res/layout/activity_relative_xml.xml" value="0.25" />
+        <entry key="middle/src/main/res/layout/activity_spinner_dropdown.xml" value="0.14309210526315788" />
+        <entry key="middle/src/main/res/layout/activity_switch_default.xml" value="0.11513157894736842" />
+        <entry key="middle/src/main/res/layout/activity_switch_ios.xml" value="0.16447368421052633" />
+        <entry key="middle/src/main/res/layout/item_dropdown.xml" value="0.14309210526315788" />
+        <entry key="middle/src/main/res/layout/item_select.xml" value="0.14309210526315788" />
+        <entry key="middle/src/main/res/layout/item_simple.xml" value="0.14309210526315788" />
       </map>
     </option>
   </component>

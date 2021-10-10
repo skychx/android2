@@ -1,7 +1,7 @@
 package com.example.middle;
 
 import android.annotation.SuppressLint;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
@@ -27,9 +27,9 @@ public class CheckboxActivity extends AppCompatActivity implements OnCheckedChan
         // 给ck_custom设置勾选监听器，一旦用户点击复选框，就触发监听器的onCheckedChanged方法
         ck_custom.setOnCheckedChangeListener(this);
         // 给ck_system设置勾选监听器，一旦用户点击复选框，就触发监听器的onCheckedChanged方法
-        //ck_system.setOnCheckedChangeListener(new CheckListener());
+        ck_system.setOnCheckedChangeListener(new CheckListener());
         // 给ck_custom设置勾选监听器，一旦用户点击复选框，就触发监听器的onCheckedChanged方法
-        //ck_custom.setOnCheckedChangeListener(new CheckListener());
+        ck_custom.setOnCheckedChangeListener(new CheckListener());
     }
 
     @Override

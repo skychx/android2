@@ -1,6 +1,6 @@
 package com.example.middle;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -24,8 +24,11 @@ public class SpinnerDropdownActivity extends AppCompatActivity {
     // 初始化下拉框
     private void initSpinner() {
         // 声明一个下拉列表的数组适配器
-        ArrayAdapter<String> starAdapter = new ArrayAdapter<String>(this,
-                R.layout.item_select, starArray);
+        ArrayAdapter<String> starAdapter = new ArrayAdapter<String>(
+                this,
+                R.layout.item_select, // 下拉框当前文本的包装盒
+                starArray // 原始数据
+        );
         // 设置数组适配器的布局样式
         starAdapter.setDropDownViewResource(R.layout.item_dropdown);
         // 从布局文件中获取名叫sp_dialog的下拉框
@@ -46,7 +49,7 @@ public class SpinnerDropdownActivity extends AppCompatActivity {
     class MySelectedListener implements OnItemSelectedListener {
         // 选择事件的处理方法，其中arg2代表选择项的序号
         public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
-            Toast.makeText(SpinnerDropdownActivity.this, "您选择的是" + starArray[arg2], Toast.LENGTH_LONG).show();
+            Toast.makeText(SpinnerDropdownActivity.this, "您选择的是" + starArray[arg2], Toast.LENGTH_SHORT).show();
         }
 
         // 未选择时的处理方法，通常无需关注

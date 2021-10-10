@@ -12,6 +12,7 @@
         android:textColor="#000000"
         android:textSize="17sp" />
 
+    <!--设置 foreground 前景图像后，该图像将会永远在最顶层-->
     <FrameLayout
         android:id="@+id/fl_content"
         android:layout_width="match_parent"

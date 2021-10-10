@@ -2,7 +2,7 @@ package com.example.middle;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.text.TextUtils.TruncateAt;
 import android.view.View;

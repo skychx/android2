@@ -1,6 +1,6 @@
 package com.example.middle;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -46,13 +46,10 @@ public class FrameActivity extends AppCompatActivity implements OnClickListener 
             // 给该视图设置布局参数
             vv.setLayoutParams(ll_params);
             // 设置该视图的长按监听器
-            vv.setOnLongClickListener(new OnLongClickListener() {
-                @Override
-                public boolean onLongClick(View vvv) {
-                    // 一旦监听到长按事件，就从相对布局中删除该视图
-                    fl_content.removeView(vvv);
-                    return true;
-                }
+            vv.setOnLongClickListener(vvv -> {
+                // 一旦监听到长按事件，就从相对布局中删除该视图
+                fl_content.removeView(vvv);
+                return true;
             });
             // 往框架布局中添加该视图
             fl_content.addView(vv);

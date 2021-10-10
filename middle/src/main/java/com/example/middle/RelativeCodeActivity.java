@@ -1,10 +1,9 @@
 package com.example.middle;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.View.OnLongClickListener;
 import android.widget.RelativeLayout;
 
 import com.example.middle.util.Utils;
@@ -74,13 +73,10 @@ public class RelativeCodeActivity extends AppCompatActivity implements OnClickLi
         // 给该视图设置布局参数
         v.setLayoutParams(rl_params);
         // 设置该视图的长按监听器
-        v.setOnLongClickListener(new OnLongClickListener() {
-            // 在用户长按该视图时触发
-            public boolean onLongClick(View vv) {
-                // 一旦监听到长按事件，就从相对布局中删除该视图
-                rl_content.removeView(vv);
-                return true;
-            }
+        v.setOnLongClickListener(vv -> {
+            // 一旦监听到长按事件，就从相对布局中删除该视图
+            rl_content.removeView(vv);
+            return true;
         });
         // 往相对布局中添加该视图
         rl_content.addView(v);
