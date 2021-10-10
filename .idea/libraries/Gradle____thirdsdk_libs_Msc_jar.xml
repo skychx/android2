@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: ./thirdsdk/libs/Msc.jar">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/thirdsdk/libs/Msc.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
