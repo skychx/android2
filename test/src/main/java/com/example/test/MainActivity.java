@@ -2,9 +2,10 @@ package com.example.test;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * Created by ouyangshen on 2017/10/28.

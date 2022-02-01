@@ -15,7 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:name=".MainApplication">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -39,13 +40,15 @@
         <activity android:name=".LruCacheActivity" />
         <activity android:name=".ImageCacheActivity" />
         
-        <receiver android:name=".LogoutServiceActivity$AlarmReceiver" >
+        <receiver android:name=".LogoutServiceActivity$AlarmReceiver"
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.example.performance.alarm" />
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".AlarmIdleActivity$AlarmReceiver" >
+        <receiver android:name=".AlarmIdleActivity$AlarmReceiver"
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.example.performance.idle" />
             </intent-filter>

@@ -2,9 +2,9 @@ package com.example.event;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v4.widget.DrawerLayout.DrawerListener;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
+
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
@@ -99,7 +99,7 @@ public class DrawerLayoutActivity extends AppCompatActivity implements OnClickLi
     }
 
     // 定义一个抽屉布局的侧滑监听器
-    private class SlidingListener implements DrawerListener {
+    private class SlidingListener implements DrawerLayout.DrawerListener {
         // 在拉出抽屉的过程中触发
         public void onDrawerSlide(View drawerView, float slideOffset) {}
 

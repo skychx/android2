@@ -6,7 +6,7 @@ import com.aqi00.lib.dialog.FileSelectFragment;
 import com.aqi00.lib.dialog.FileSelectFragment.FileSelectCallbacks;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;

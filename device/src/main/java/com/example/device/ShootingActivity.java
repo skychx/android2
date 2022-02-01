@@ -12,7 +12,7 @@ import android.hardware.camera2.CameraCharacteristics;
 import android.hardware.camera2.CameraManager;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -97,13 +97,11 @@ public class ShootingActivity extends AppCompatActivity implements OnClickListen
     public void onClick(View v) {
         // 从系统服务中获取相机管理器
         CameraManager cm = (CameraManager) getSystemService(Context.CAMERA_SERVICE);
-        String[] ids;
+        String[] ids = new String[0];
         try {
-            // 获取摄像头的编号数组
             ids = cm.getCameraIdList();
         } catch (CameraAccessException e) {
             e.printStackTrace();
-            return;
         }
         if (v.getId() == R.id.btn_catch_behind) { // 点击了后置摄像头拍照按钮
             if (checkCamera(ids, CameraCharacteristics.LENS_FACING_FRONT + "")) {

@@ -6,9 +6,9 @@ import com.example.senior.adapter.ImagePagerAdapater;
 import com.example.senior.bean.GoodsInfo;
 
 import android.os.Bundle;
-import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPager.OnPageChangeListener;
-import android.support.v7.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
+import androidx.viewpager.widget.ViewPager.OnPageChangeListener;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.Toast;
 
 /**

@@ -3,12 +3,10 @@ package com.example.group;
 import java.util.ArrayList;
 
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
-import android.support.design.widget.TabLayout.ViewPagerOnTabSelectedListener;
-import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPager.SimpleOnPageChangeListener;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.widget.Toolbar;
+
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -16,6 +14,7 @@ import android.widget.Toast;
 import com.example.group.adapter.ClassPagerAdapter;
 import com.example.group.util.DateUtil;
 import com.example.group.util.MenuUtil;
+import com.google.android.material.tabs.TabLayout;
 
 /**
  * Created by ouyangshen on 2017/10/21.
@@ -51,7 +50,7 @@ public class DepartmentClassActivity extends AppCompatActivity {
         // 给tab_title添加一个指定文字的标签
         tab_title.addTab(tab_title.newTab().setText(mTitleArray.get(1)));
         // 给tab_title添加标签选中监听器，该监听器默认绑定了翻页视图vp_content
-        tab_title.addOnTabSelectedListener(new ViewPagerOnTabSelectedListener(vp_content));
+        tab_title.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(vp_content));
     }
 
     // 初始化标签翻页
@@ -62,7 +61,7 @@ public class DepartmentClassActivity extends AppCompatActivity {
         // 给vp_content设置分类翻页适配器
         vp_content.setAdapter(adapter);
         // 给vp_content添加页面变更监听器
-        vp_content.addOnPageChangeListener(new SimpleOnPageChangeListener() {
+        vp_content.addOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
             @Override
             public void onPageSelected(int position) {
                 // 选中tab_title指定位置的标签

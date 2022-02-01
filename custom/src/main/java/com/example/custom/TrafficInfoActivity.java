@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import android.net.TrafficStats;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.ListView;
 import android.widget.TextView;
 

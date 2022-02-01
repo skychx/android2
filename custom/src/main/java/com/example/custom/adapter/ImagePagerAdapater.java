@@ -1,12 +1,13 @@
 package com.example.custom.adapter;
 
 import android.content.Context;
-import android.support.v4.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.ImageView;
 import android.widget.ImageView.ScaleType;
+
+import androidx.viewpager.widget.PagerAdapter;
 
 import com.example.custom.bean.GoodsInfo;
 

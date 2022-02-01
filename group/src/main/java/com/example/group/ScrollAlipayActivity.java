@@ -3,20 +3,20 @@ package com.example.group;
 import com.example.group.adapter.LifeRecyclerAdapter;
 import com.example.group.bean.LifeItem;
 import com.example.group.util.Utils;
+import com.google.android.material.appbar.AppBarLayout;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.AppBarLayout.OnOffsetChangedListener;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.view.View;
 
 /**
  * Created by ouyangshen on 2017/9/3.
  */
-public class ScrollAlipayActivity extends AppCompatActivity implements OnOffsetChangedListener {
+public class ScrollAlipayActivity extends AppCompatActivity implements AppBarLayout.OnOffsetChangedListener {
     private final static String TAG = "ScrollAlipayActivity";
     private View tl_expand, tl_collapse; // 分别声明伸展时候与收缩时候的工具栏视图
     private View v_expand_mask, v_collapse_mask, v_pay_mask; // 分别声明三个遮罩视图

@@ -25,7 +25,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.network.BuildConfig;
 import com.example.network.R;
 import com.example.network.bean.ApkInfo;
 import com.example.network.bean.PackageInfo;

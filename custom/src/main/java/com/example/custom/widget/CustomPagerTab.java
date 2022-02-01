@@ -7,10 +7,11 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
-import android.support.v4.view.PagerTabStrip;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.util.TypedValue;
+
+import androidx.viewpager.widget.PagerTabStrip;
 
 public class CustomPagerTab extends PagerTabStrip {
     private final static String TAG = "CustomPagerTab";

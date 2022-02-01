@@ -75,8 +75,6 @@
 -keep public class * extends android.content.ContentProvider
 -keep public class * extends android.app.backup.BackupAgentHelper
 -keep public class * extends android.preference.Preference
--keep public class * extends android.support.v4.**
--keep public class com.android.vending.licensing.ILicensingService
 
 #保持哪些第三方jar包不被混淆。比如上一节RSA算法用到了bcprov-jdk16-1.46.jar，该jar包里的工具类就不可混淆
 -keep class org.bouncycastle.**

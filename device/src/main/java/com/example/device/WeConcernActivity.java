@@ -1,10 +1,10 @@
 package com.example.device;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
+import androidx.appcompat.widget.Toolbar;
 
 /**
  * Created by ouyangshen on 2017/11/4.

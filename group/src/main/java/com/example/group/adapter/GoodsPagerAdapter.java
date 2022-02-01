@@ -5,9 +5,9 @@ import java.util.ArrayList;
 import com.example.group.fragment.BookDetailFragment;
 import com.example.group.fragment.BookCoverFragment;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 
 public class GoodsPagerAdapter extends FragmentPagerAdapter {
     private ArrayList<String> mTitleArray; // 声明一个标题文字队列

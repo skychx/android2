@@ -7,11 +7,11 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.Settings;
-import android.support.v4.content.FileProvider;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.example.network.BuildConfig;
+import androidx.core.content.FileProvider;
+
 import com.example.network.service.AutoInstallService;
 
 public class InstallUtil {
@@ -28,7 +28,7 @@ public class InstallUtil {
         // 兼容Android7.0，把访问文件的Uri方式改为FileProvider
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             // 通过FileProvider获得安装包文件的Uri访问方式
-            Uri contentUri = FileProvider.getUriForFile(context, BuildConfig.APPLICATION_ID + ".fileProvider", file);
+            Uri contentUri = FileProvider.getUriForFile(context, "" + ".fileProvider", file);
             // 设置Uri的数据类型为APK文件
             intent.setDataAndType(contentUri, "application/vnd.android.package-archive");
             // 给意图添加授权读取Uri的标志

@@ -5,15 +5,14 @@ import java.util.ArrayList;
 import com.example.group.adapter.GoodsPagerAdapter;
 import com.example.group.util.DateUtil;
 import com.example.group.util.MenuUtil;
+import com.google.android.material.tabs.TabLayout;
 
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
-import android.support.design.widget.TabLayout.OnTabSelectedListener;
-import android.support.design.widget.TabLayout.Tab;
-import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPager.SimpleOnPageChangeListener;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+
+import androidx.viewpager.widget.ViewPager;
+import androidx.viewpager.widget.ViewPager.SimpleOnPageChangeListener;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -21,7 +20,7 @@ import android.widget.Toast;
 /**
  * Created by ouyangshen on 2017/10/21.
  */
-public class TabLayoutActivity extends AppCompatActivity implements OnTabSelectedListener {
+public class TabLayoutActivity extends AppCompatActivity implements TabLayout.OnTabSelectedListener {
     private final static String TAG = "TabLayoutActivity";
     private ViewPager vp_content; // 定义一个翻页视图对象
     private TabLayout tab_title; // 定义一个标签布局对象
@@ -73,16 +72,16 @@ public class TabLayoutActivity extends AppCompatActivity implements OnTabSelecte
     }
 
     // 在标签被重复选中时触发
-    public void onTabReselected(Tab tab) {}
+    public void onTabReselected(TabLayout.Tab tab) {}
 
     // 在标签选中时触发
-    public void onTabSelected(Tab tab) {
+    public void onTabSelected(TabLayout.Tab tab) {
         // 让vp_content显示指定位置的页面
         vp_content.setCurrentItem(tab.getPosition());
     }
 
     // 在标签取消选中时触发
-    public void onTabUnselected(Tab tab) {}
+    public void onTabUnselected(TabLayout.Tab tab) {}
 
     @Override
     public boolean onMenuOpened(int featureId, Menu menu) {

@@ -3,13 +3,14 @@ package com.example.media.adapter;
 import com.example.media.util.Utils;
 
 import android.content.Context;
-import android.support.v7.widget.CardView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.BaseAdapter;
 import android.widget.Gallery;
 import android.widget.ImageView;
+
+import androidx.cardview.widget.CardView;
 
 public class AlbumAdapter extends BaseAdapter {
     private Context mContext;

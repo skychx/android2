@@ -39,7 +39,8 @@
         android:theme="@style/AppTheme"
         android:networkSecurityConfig="@xml/network_security_config"
         android:name=".MainApplication">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -79,7 +80,7 @@
 
         <!-- 兼容Android7.0，把访问文件的Uri方式改为FileProvider -->
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name="androidx.core.content.FileProvider"
             android:authorities="com.example.network.fileProvider"
             android:grantUriPermissions="true"
             android:exported="false">
@@ -92,7 +93,8 @@
         <service
             android:name=".service.AutoInstallService"
             android:label="@string/accessibility_label"
-            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />
             </intent-filter>
@@ -103,26 +105,30 @@
         </service>
 
         <!-- 接收下载任务的下载完成事件 -->
-        <receiver android:name=".DownloadApkActivity$DownloadCompleteReceiver" >
+        <receiver android:name=".DownloadApkActivity$DownloadCompleteReceiver"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
             </intent-filter>
         </receiver>
         <!-- 接收通知栏上的下载任务点击事件 -->
-        <receiver android:name=".DownloadApkActivity$NotificationClickReceiver" >
+        <receiver android:name=".DownloadApkActivity$NotificationClickReceiver"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
             </intent-filter>
         </receiver>
 
         <!-- 接收Socket得到的收到对方消息事件 -->
-        <receiver android:name=".ChatMainActivity$RecvMsgReceiver" >
+        <receiver android:name=".ChatMainActivity$RecvMsgReceiver"
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.example.network.RECV_MSG" />
             </intent-filter>
         </receiver>
         <!-- 接收Socket得到的获取好友列表事件 -->
-        <receiver android:name=".QQContactActivity$GetListReceiver" >
+        <receiver android:name=".QQContactActivity$GetListReceiver"
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.example.network.GET_LIST" />
             </intent-filter>

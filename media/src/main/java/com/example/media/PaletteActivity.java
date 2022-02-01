@@ -13,9 +13,8 @@ import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.graphics.Palette;
-import android.support.v7.graphics.Palette.PaletteAsyncListener;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.palette.graphics.Palette;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
@@ -104,7 +103,7 @@ public class PaletteActivity extends AppCompatActivity implements
     }
 
     // 定义一个调色事件监听器
-    private class MyPaletteListener implements PaletteAsyncListener {
+    private class MyPaletteListener implements Palette.PaletteAsyncListener {
         private int mPos; // 进行调色处理的图片序号
 
         public MyPaletteListener(int pos) {

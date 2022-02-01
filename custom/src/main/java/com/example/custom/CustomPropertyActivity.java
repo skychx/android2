@@ -6,15 +6,15 @@ import com.example.custom.adapter.ImagePagerAdapater;
 import com.example.custom.bean.GoodsInfo;
 
 import android.os.Bundle;
-import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPager.OnPageChangeListener;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
+
 import android.widget.Toast;
 
 /**
  * Created by ouyangshen on 2017/10/14.
  */
-public class CustomPropertyActivity extends AppCompatActivity implements OnPageChangeListener {
+public class CustomPropertyActivity extends AppCompatActivity implements ViewPager.OnPageChangeListener {
     private ArrayList<GoodsInfo> goodsList;
 
     @Override
@@ -27,7 +27,7 @@ public class CustomPropertyActivity extends AppCompatActivity implements OnPageC
         // 从布局视图中获取名叫vp_content的翻页视图
         ViewPager vp_content = findViewById(R.id.vp_content);
         // 给vp_content设置图片翻页适配器
-        vp_content.setAdapter(adapter);
+//        vp_content.setAdapter(adapter);
         // 设置vp_content默认显示第一个页面
         vp_content.setCurrentItem(0);
         // 给vp_content添加页面变化监听器

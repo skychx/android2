@@ -5,7 +5,7 @@ import com.example.custom.bean.Planet;
 import com.example.custom.widget.NoScrollListView;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.ListView;
 
 /**

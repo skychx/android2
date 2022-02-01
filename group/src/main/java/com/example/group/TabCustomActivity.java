@@ -3,12 +3,10 @@ package com.example.group;
 import java.util.ArrayList;
 
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
-import android.support.design.widget.TabLayout.ViewPagerOnTabSelectedListener;
-import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPager.SimpleOnPageChangeListener;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.viewpager.widget.ViewPager;
+import androidx.viewpager.widget.ViewPager.SimpleOnPageChangeListener;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
@@ -17,6 +15,7 @@ import android.widget.Toast;
 import com.example.group.adapter.GoodsPagerAdapter;
 import com.example.group.util.DateUtil;
 import com.example.group.util.MenuUtil;
+import com.google.android.material.tabs.TabLayout;
 
 /**
  * Created by ouyangshen on 2017/10/21.
@@ -56,7 +55,7 @@ public class TabCustomActivity extends AppCompatActivity {
         TextView tv_toolbar2 = findViewById(R.id.tv_toolbar2);
         tv_toolbar2.setText(mTitleArray.get(1));
         // 给tab_title添加标签选中监听器，该监听器默认绑定了翻页视图vp_content
-        tab_title.addOnTabSelectedListener(new ViewPagerOnTabSelectedListener(vp_content));
+        tab_title.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(vp_content));
     }
 
     // 初始化标签翻页

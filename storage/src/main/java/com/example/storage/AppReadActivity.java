@@ -3,7 +3,7 @@ package com.example.storage;
 import java.util.Map;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.TextView;
 
 /**
